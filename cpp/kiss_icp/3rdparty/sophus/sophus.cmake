@@ -21,7 +21,7 @@
 # SOFTWARE.
 include(FetchContent)
 
-set(SOPHUS_USE_BASIC_LOGGING ON CACHE BOOL "Don't use fmt for Sophus libraru")
+set(SOPHUS_USE_BASIC_LOGGING OFF CACHE BOOL "Don't use fmt for Sophus libraru")
 set(BUILD_SOPHUS_TESTS OFF CACHE BOOL "Don't build Sophus tests")
 set(BUILD_SOPHUS_EXAMPLES OFF CACHE BOOL "Don't build Sophus Examples")
 
